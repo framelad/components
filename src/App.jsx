@@ -4,6 +4,7 @@ import {UseStateCounter} from "./UseStateCounter.jsx";
 import {Clock} from "./Clock.jsx";
 import {Login} from "./Login.jsx";
 import UncontrolledLogin from "./UncontrolledLogin.jsx";
+import FocusableInput from "./FocusableInput.jsx";
 
 MouseClicker.propTypes = {
     name: PropTypes.string,
@@ -36,6 +37,7 @@ function App() {
             <Clock/>
             <Login/>
             <UncontrolledLogin/>
+            <FocusableInput/>
         </div>)
 }
 
