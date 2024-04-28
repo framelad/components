@@ -3,7 +3,7 @@ import Age from "./Age.jsx";
 
 export default function Welcome({name, age}) {
         return (
-            <div>
+            <div className="welcome">
                 <h1>Hello, {name}</h1>
                 <Age years={age}/>
                 {age > 18 && <Age years={age} />} {/* Render Age if age is greater than 18 */}
