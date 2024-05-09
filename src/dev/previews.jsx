@@ -1,8 +1,7 @@
 import {ComponentPreview, Previews} from '@react-buddy/ide-toolbox'
 import {PaletteTree} from './palette'
 import App from "../App.jsx";
-import {Counter} from "../UseStateCounter.jsx";
-import {Login} from "../Login.jsx";
+import Container from "../Container.jsx";
 
 const ComponentPreviews = () => {
     return (
@@ -15,6 +14,9 @@ const ComponentPreviews = () => {
             </ComponentPreview>
             <ComponentPreview path="/Login">
                 <Login/>
+            </ComponentPreview>
+            <ComponentPreview path="/Container">
+                <Container/>
             </ComponentPreview>
         </Previews>
     )
